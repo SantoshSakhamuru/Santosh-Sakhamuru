@@ -1,0 +1,32 @@
+.file-list-header {
+  display: grid;
+  grid-template-columns: 40px 1fr 100px 120px 40px;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #fafafa;
+}
+
+.header-cell {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: #666;
+  font-size: 0.875rem;
+}
+
+.checkbox-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox-cell input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.name-cell {
+  padding-left: 0.5rem;
+} 

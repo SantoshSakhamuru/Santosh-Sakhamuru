@@ -1,0 +1,26 @@
+.file-list {
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.file-list-body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Common styles shared between components */
+.checkbox-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox-cell input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+} 
